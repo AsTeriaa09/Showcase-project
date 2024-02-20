@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.container{
+    padding: 20px 260px;
+}
+.row{
+    display: flex;
+}
+.logo-section{
+
+    margin-right: 380px;
+    margin-left: 30px;
+}
+.created-by-section .border-bottom{
+   background-color: skyblue;
+   height: 3px;
+   width: 70px;
+    margin-top: -5px;
+}
+.created-by-first{
+    margin-right: 80px;
+}
+.upper-section{
+    height: 80vh;
+    /* background-color: red; */
+}
+.lower-section{
+/* height: 200px; */
+background-color: #f6f8fa;
+}
+.lower-section-text{
+    color: skyblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.created-by{
+    display: flex;
+}
+.created-by-first h3{
+    font-family: Roboto;
+    letter-spacing: 1px;
+}
+.created-by-first p{
+    margin-top: -10px;
+}
+.social-icons {
+    /* margin-top: 10px; */
+}
+.social-icons a{
+text-decoration: none;
+color: black;
+font-size: 1.4rem;
+margin: 0 5px;
+}
+.logo-section p{
+    width: 320px;
+}
+.lower-hr hr{
+    margin-top: 30px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 5px;
+}
+
+@media screen and (max-width:767px){
+    .container{
+       padding-left: 0px !important;
+       /* padding-right: 0px !important; */
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .created-by-section{
+        /* margin-left: 50px; */
+        width: 100%;
+        margin-top: 10px;
+    }
+    .logo-section p{
+        width: 85%;
+       
+    }
+   
+    .lower-section{
+        width: 100%;
+        background-color: #f6f8fa;
+    }
+    .lower-hr hr{
+        margin-top: 30px;
+       margin-left: 50px !important;
+       /* margin-right: 20px !important; */
+    }
+    .copyright{
+text-align: center;
+padding-left: 50px;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .container{
+        padding: 20px 60px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .created-by-section{
+        margin-left: 50px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .logo-section{
+        width: 100%;
+    }
+}
