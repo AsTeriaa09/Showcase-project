@@ -8,22 +8,27 @@ import { IoIosArrowForward } from "react-icons/io";
 const Footer = () => {
   return (
     <div>
-      <div className="upper-section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, voluptatem dolorem. Minima molestiae vel illo eos alias quibusdam maiores modi quidem sleniti </div>
+      <div className="upper-section">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, voluptatem
+        dolorem. Minima molestiae vel illo eos alias quibusdam maiores modi
+        quidem sleniti{" "}
+      </div>
       <div className="lower-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5 mt-1 logo-section">
+        <div className="main-box">
+          <div className="box">
+            <div className="logo-section">
               <h2>
                 {" "}
                 <span className="lower-section-text">EZ</span>PROMPT
               </h2>
               <p>
                 Join our vibrant community of creators and share your responses
-                to our prompts for feedback, encouragement, and inspiration!  our prompts are the perfect springboard for your next masterpiece.
+                to our prompts for feedback, encouragement, and inspiration! our
+                prompts are the perfect springboard for your next masterpiece.
               </p>
             </div>
 
-            <div className="col-lg-7 created-by-section">
+            <div className="created-by-section">
               <h2>Created by</h2>
               <div className="border-bottom"></div>
               <div className="created-by">
@@ -35,7 +40,10 @@ const Footer = () => {
                       {" "}
                       <SiGithub />
                     </a>
-                    <a href="https://www.linkedin.com/in/siratulislam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/siratulislam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      target="_blank"
+                    >
                       {" "}
                       <FaLinkedin />
                     </a>
@@ -70,7 +78,9 @@ const Footer = () => {
             <hr />
           </div>
           <div className="copyright">
-            <p>Copyright <span>©</span> PromptSquad | All rights reserved</p>
+            <p>
+              Copyright <span>©</span> PromptSquad | All rights reserved
+            </p>
           </div>
         </div>
       </div>
